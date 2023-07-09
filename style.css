@@ -12,6 +12,7 @@ body {
 
 
 .header {
+    display: flex;
     height: 100vh;
     background-image: url(images/banner/banner1.png);
     background-repeat: no-repeat;
@@ -21,22 +22,27 @@ body {
 }
 
 .banner-text {
-
-    margin-right: 200px;
+    margin: 80px;
+    /* margin-right: 200px; */
+    width: 494px;
+    margin: auto;
+    text-align: right;
+    margin-left: 1240px;
 }
 
 .banner-title {
+    margin-top: 80px;
     text-align: right;
     color: #151414;
     font-size: 65px;
     font-weight: 700;
 }
 
+
+
 .banner-description {
-    text-align: right;
-    display: block;
-    width: 494px;
-    float: right;
+    margin-top: 10px;
+    text-align: end;
     color: #444343;
     font-size: 16px;
     font-weight: 400;
@@ -47,8 +53,8 @@ body {
 }
 
 
-
 .btn-primary {
+    margin-top: 20px;
     /* float: right; */
     width: 160px;
     height: 64px;
