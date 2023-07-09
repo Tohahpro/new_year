@@ -65,3 +65,38 @@ body {
     border-radius: 5px;
     background: #F15B22;
 }
+
+
+/* header section end  */
+
+.failure-section {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-text {
+    margin-top: 200px;
+}
+
+.section-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    width: 416px;
+}
+
+.section-topic {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.section-topic li {
+    margin-top: 10px;
+}
