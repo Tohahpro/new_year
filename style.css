@@ -100,3 +100,48 @@ body {
 .section-topic li {
     margin-top: 10px;
 }
+
+/* .failure-section end  */
+
+
+.plan-section {
+    margin: 100px;
+}
+
+.plan-heading {
+    text-align: center;
+
+}
+
+.plan-heading h2 {
+    color: var(--dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/* icon style  */
+
+.icons-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icon-heading {
+    margin-top: 20px;
+    color: var(--dark-01, #151414);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.icon-description {
+    color: #737272;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 500;
+}
